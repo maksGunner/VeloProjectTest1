@@ -1,4 +1,4 @@
-package all.tkach.resource;
+package all.resource;
 
 public enum Status {
     FREE, LOSD

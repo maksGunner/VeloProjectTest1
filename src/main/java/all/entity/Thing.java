@@ -1,6 +1,6 @@
-package all.tkach.entity;
+package all.entity;
 
-import all.tkach.resource.Status;
+import all.resource.Status;
 import lombok.*;
 
 import javax.persistence.Entity;

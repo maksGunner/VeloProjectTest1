@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0
+}
+
+
+
+.float-l{
+    float: left
+}
+
+.flaot-r{
+    float: right
+}
+
+.m-0-a{
+    margin: 0 auto
+}
+
+.h700{
+    height: 700px;
+}
+.h575{
+    height: 575px;
+}
+
+.h400{
+    height: 400px
+}
+
+.h150{
+    height: 150px;
+}
+
+.h60{
+    height: 60px;
+}
+
+.hp100{
+    height: 100%;
+}
+
+.hp80{
+    height: 80%;
+}
+
+.hp66{
+    height: 66%;
+}
+
+.hp50{
+    height: 50%;
+}
+.hp40{
+    height: 40%;
+}
+
+.hp30{
+    height: 30%;
+}
+
+.hp25{
+    height: 25%
+}
+
+.hp20{
+    height: 20%
+}
+
+.hp15{
+    height: 15%
+}
+
+.hp10{
+    height: 10%
+}
+            
+
+.wp100{
+    width: 100%
+}
+
+.wp60{
+    width: 60%
+}
+
+.wp50{
+    width: 50%
+}
+
+.wp40{
+    width: 40%;
+}
+
+.wp33{
+    width: 33.3%
+}
+
+.wp30{
+    width: 30%
+}
+
+.wp20{
+    width: 20%
+}
+
+.pdg30{
+    padding: 30px
+}
+
+.pdg10{
+    padding: 10px
+}
+
+.text-c{
+    text-align: center
+}
+
+
+
+.bg-aqua{
+    background: aqua
+}
+
+.bg-pink{
+    background: pink
+}
+
+.bg-grey{
+    background: grey
+}
+
+.bg-green{
+    background: darkgreen
+}
+
+.bg-red{
+    background: red
+}
+
+.bg-orange{
+    background: orange
+}
+
+/*pavlo 06.07.2018  12.23*/
+
+.bor{
+    border: 1px solid red;
+}
+.h2140{
+    height: 2140px;
+}
+.h200{
+    height: 200px;
+}
+.h40{
+    height: 40px;
+}
+.wp80{
+    width: 80%;
+}

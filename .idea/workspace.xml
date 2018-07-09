@@ -6,26 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d85f37e1-b154-4450-b095-58cbc9c1898d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/VeloProjectTest1_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/VeloProjectTest1_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VeloProjectTest1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/all/config/Security.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/all/config/SecurityInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/all/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/all/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/all/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/all/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/all/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/all/config/WebInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/all/config/WebInit.java" afterDir="false" />
+    <list default="true" id="d85f37e1-b154-4450-b095-58cbc9c1898d" name="Default" comment="add security2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/all/config/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/all/config/Security.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/all/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/all/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/all/entity/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/all/entity/Thing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/all/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/all/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/all/resource/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/all/resource/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/VeloProjectTest1-1.0-SNAPSHOT/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/VeloProjectTest1-1.0-SNAPSHOT/pages/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,26 +53,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/index.jsp">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/all/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/all/controller/MainController.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="208">
+              <caret line="38" column="84" lean-forward="true" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Security.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/all/config/Security.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="78" column="36" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
               <folding>
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +110,8 @@
         <option value="$PROJECT_DIR$/src/main/java/all/resource/Status.java" />
         <option value="$PROJECT_DIR$/src/main/java/all/entity/Thing.java" />
         <option value="$PROJECT_DIR$/src/main/java/all/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/all/config/Security.java" />
         <option value="$PROJECT_DIR$/src/main/java/all/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/all/config/Security.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" />
       </list>
     </option>
@@ -436,12 +429,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531135039686</updated>
       <workItem from="1531135064509" duration="13000" />
-      <workItem from="1531135096878" duration="6224000" />
+      <workItem from="1531135096878" duration="7384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6237000" />
+    <option name="totallyTimeSpent" value="7397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1380" height="742" extended-state="6" />
@@ -488,6 +481,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add security2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add security2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://788a6ebb-4584-4040-a5b8-a0b4caf64865/schema/veloprojectdb1/table/user">
@@ -608,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/all/config/Security.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="79" column="24" lean-forward="true" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+        <state relative-caret-position="346">
+          <caret line="78" column="36" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1512#1513#0" expanded="true" />
@@ -620,22 +617,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/all/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="38" column="84" lean-forward="true" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
         </state>
       </provider>
     </entry>

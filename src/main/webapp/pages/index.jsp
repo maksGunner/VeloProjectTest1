@@ -35,7 +35,12 @@
                 </sec:authorize>
 
                 <sec:authorize access="isAuthenticated()">
-                    <a href="" class="c">Logout</a>
+                    <form action="/logoutMe" method="post">
+                        <input type="submit" name="" placeholder="" value="Log out">
+                        <input type="hidden"
+                               name="${_csrf.parameterName}"
+                               value="${_csrf.token}"/>
+                    </form>
                 </sec:authorize>
 
                 <%--<div>Sign In</div>--%>

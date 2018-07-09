@@ -17,10 +17,7 @@ public class MainController {
 //    @GetMapping("/login")
 //    public String login(){return "login";}
 
-    @GetMapping("/logoutMe")
-    public String index (){
-        return "index";
-    }
+
 
     @GetMapping("/registration")
     public String registration(){return "registration";}

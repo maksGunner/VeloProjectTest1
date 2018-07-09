@@ -76,6 +76,7 @@ public class Security extends WebSecurityConfigurerAdapter {
                 .and()
                 .logout()
                 .logoutUrl("/logoutMe")
+                .logoutSuccessUrl("/")
                 .and()
                 .csrf();
 

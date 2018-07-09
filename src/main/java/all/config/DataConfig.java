@@ -26,7 +26,7 @@ public class DataConfig {
         dataSource.setUrl("jdbc:mysql://localhost:3306/veloprojectdb1?createDatabaseIfNotExist=true");
 //        This is your username and password of MySql DataBase
         dataSource.setUsername("root");
-        dataSource.setPassword("1234");
+        dataSource.setPassword("root");
         return dataSource;
     }
     @Bean

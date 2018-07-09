@@ -1,6 +1,5 @@
 package all.entity;
 
-import all.security.MyRole;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -17,9 +16,11 @@ public class User implements UserDetails {
     private int id;
     private String name;
     private String surname;
-    private String email;
 
+    public User(){
+    }
 
+    @Column(unique = true)
     private String username;
     public String getUsername() {
         return username;
@@ -60,7 +61,6 @@ public class User implements UserDetails {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -68,7 +68,6 @@ public class User implements UserDetails {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -76,17 +75,8 @@ public class User implements UserDetails {
     public String getSurname() {
         return surname;
     }
-
     public void setSurname(String surname) {
         this.surname = surname;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public void setUsername(String username) {
@@ -100,7 +90,6 @@ public class User implements UserDetails {
     public MyRole getRole() {
         return role;
     }
-
     public void setRole(MyRole role) {
         this.role = role;
     }
@@ -113,24 +102,12 @@ public class User implements UserDetails {
         this.accNonExp = accNonExp;
     }
 
-    public boolean isAccNonLock() {
-        return accNonLock;
-    }
-
     public void setAccNonLock(boolean accNonLock) {
         this.accNonLock = accNonLock;
     }
 
-    public boolean isCredNonExp() {
-        return credNonExp;
-    }
-
     public void setCredNonExp(boolean credNonExp) {
         this.credNonExp = credNonExp;
-    }
-
-    public boolean isEnable() {
-        return enable;
     }
 
     public void setEnable(boolean enable) {

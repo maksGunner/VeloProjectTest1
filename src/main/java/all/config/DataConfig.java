@@ -1,4 +1,4 @@
-package all.tkach.config;
+package all.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +16,7 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@EnableJpaRepositories("all.tkach.dao")
+@EnableJpaRepositories("all.dao")
 @EnableTransactionManagement
 public class DataConfig {
     @Bean
@@ -25,7 +25,7 @@ public class DataConfig {
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/veloprojectdb1?createDatabaseIfNotExist=true");
         dataSource.setUsername("root");
-        dataSource.setPassword("1234");
+        dataSource.setPassword("root");
         return dataSource;
     }
     @Bean
@@ -40,7 +40,7 @@ public class DataConfig {
         LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
         factoryBean.setDataSource(dataSource());
         factoryBean.setJpaVendorAdapter(vendorAdapter());
-        factoryBean.setPackagesToScan("all.tkach.entity");
+        factoryBean.setPackagesToScan("all.entity");
 
         Properties properties = new Properties();
         properties.put("hibernate.hbm2ddl.auto", "update");

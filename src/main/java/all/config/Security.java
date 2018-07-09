@@ -19,7 +19,7 @@ import org.springframework.web.filter.CharacterEncodingFilter;
 
 @Configuration
 @EnableWebSecurity
-@ComponentScan("all.config")
+@ComponentScan("all.*")
 public class Security extends WebSecurityConfigurerAdapter {
 
     @Autowired
@@ -79,7 +79,5 @@ public class Security extends WebSecurityConfigurerAdapter {
                 .logoutSuccessUrl("/")
                 .and()
                 .csrf();
-
-
     }
 }

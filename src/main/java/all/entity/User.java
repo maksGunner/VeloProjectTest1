@@ -16,14 +16,18 @@ public class User implements UserDetails {
     private int id;
     private String name;
     private String surname;
-    private String email;
+
+    @Column(unique = true)
+    private String username;
     private String password;
 
-    public String getUsername() {
-        return email;
+    public String getUsername(){
+
+        return username;
     }
 
     public String getPassword() {
+
         return password;
     }
 
@@ -77,7 +81,7 @@ public class User implements UserDetails {
     }
 
     public void setEmail(String email) {
-        this.email = email;
+        this.username = username;
     }
 
     public void setPassword(String password) {

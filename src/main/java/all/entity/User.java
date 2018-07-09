@@ -80,7 +80,7 @@ public class User implements UserDetails {
         this.surname = surname;
     }
 
-    public void setEmail(String email) {
+    public void setUsername(String username) {
         this.username = username;
     }
 

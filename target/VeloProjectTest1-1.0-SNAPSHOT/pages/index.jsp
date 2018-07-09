@@ -36,7 +36,7 @@
 
                 <sec:authorize access="isAuthenticated()">
                     <form action="/logoutMe" method="post">
-                        <input type="submit" name="" placeholder="" value="Log out">
+                        <input type="submit" name="" placeholder="" value="Log out" class="c" style="background-color: inherit">
                         <input type="hidden"
                                name="${_csrf.parameterName}"
                                value="${_csrf.token}"/>

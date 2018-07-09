@@ -1,4 +1,4 @@
-package all.Service.Mail;
+package all.service.Mail;
 
 import all.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +19,8 @@ public class MailServiceImpl implements MailService {
         MimeMessage mimeMessage = javaMailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(mimeMessage);
         try {
-        helper.setTo(user.getEmail());
-        helper.setText("<h3>hello dear user with email " + user.getEmail());
+        helper.setTo(user.getUsername());
+        helper.setText("<h3>hello dear user with email " + user.getUsername());
 //        Your email login
         helper.setFrom("tkachpavlo111@gmail.com");
         } catch (MessagingException e) {

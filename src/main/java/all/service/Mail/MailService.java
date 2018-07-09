@@ -1,4 +1,4 @@
-package all.Service.Mail;
+package all.service.Mail;
 
 import all.entity.User;
 

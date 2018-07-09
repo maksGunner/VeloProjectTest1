@@ -14,16 +14,14 @@ import java.security.Principal;
 public class MainController {
     @GetMapping("/")
     public String index(Principal principal){
-
-        System.out.println(principal);
-        return "index";}
+        return "index";
+    }
 
 //    @GetMapping("/login")
 //    public String login(){return "login";}
 
     @GetMapping("/registration")
     public String registration(){
-
         return "registration";
     }
 

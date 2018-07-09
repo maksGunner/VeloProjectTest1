@@ -1,3 +1,4 @@
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <!DOCTYPE HTML>
 <html>
 
@@ -5,6 +6,20 @@
         <meta charset="utf-8"/>
         <title>BicycleParts</title>
         <link rel="stylesheet" href="/css/main.css">
+        <style>
+            .c {
+                border: 1px solid #333; /* Рамка */
+                display: inline-block;
+                padding: 5px 15px; /* Поля */
+                text-decoration: none; /* Убираем подчёркивание */
+                color: #000; /* Цвет текста */
+            }
+            .c:hover {
+                box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+                background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+                color: #a00;
+            }
+        </style>
     </head>
     
     <body>
@@ -13,14 +28,29 @@
                 <div class="float-l wp50 hp100 bg-pink">
                     <h1 class="pdg10">BICYCLEPARTS</h1>
                 </div>
-                <div class="float-l wp30 hp100 bg-grey text-c bg-green">
-                    <div>Увійти</div>
-                    <div>Зареєструватися</div>
-                </div>
-                
+            <div class="float-l wp30 hp100 bg-grey text-c bg-green">
+                <sec:authorize access="isAnonymous()">
+                    <a href="/login" class="c">Sign in</a>
+                    <a href="/registration" class="c">Sign up</a>
+                </sec:authorize>
+
+                <sec:authorize access="isAuthenticated()">
+                    <form action="/logoutMe" method="post">
+                        <input type="submit" name="" placeholder="" value="Log out" class="c" style="background-color: inherit">
+                        <input type="hidden"
+                               name="${_csrf.parameterName}"
+                               value="${_csrf.token}"/>
+                    </form>
+                </sec:authorize>
+
+                <%--<div>Sign In</div>--%>
+                <%--<div>Sign Up</div>--%>
+            </div>
                 <div class="float-l wp20 hp100 bg-red text-c">
                     <h2 class="pdg10">SEARCH</h2>
                 </div>
+
+
         </div>
                                     <!-- Builds -->
         <div class="h700">

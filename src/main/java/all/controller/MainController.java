@@ -18,8 +18,11 @@ public class MainController {
         System.out.println(principal);
         return "index";}
 
-//    @GetMapping("/login")
-//    public String login(){return "login";}
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
+
 
     @GetMapping("/registration")
     public String registration(){

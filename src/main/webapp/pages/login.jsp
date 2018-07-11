@@ -14,6 +14,14 @@
     </head>
     <body>
         <h1>Login page</h1>
+        <form action="/logMe" method="post">
+            <input type="hidden"
+                   name="${_csrf.parameterName}"
+                   value="${_csrf.token}"/>
+            <input type="" name="username" placeholder="username" class="c">
+            <input type="" name="password" placeholder="password" class="c">
+            <input type="submit" name="" placeholder="" class="c">
+        </form>
 
 
 

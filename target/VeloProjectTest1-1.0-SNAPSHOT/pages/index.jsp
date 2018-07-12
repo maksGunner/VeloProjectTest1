@@ -6,28 +6,27 @@
         <meta charset="utf-8"/>
         <title>BicycleParts</title>
         <link rel="stylesheet" href="/css/main.css">
-        <style>
-            .c {
-                border: 1px solid #333; /* Рамка */
-                display: inline-block;
-                padding: 5px 15px; /* Поля */
-                text-decoration: none; /* Убираем подчёркивание */
-                color: #000; /* Цвет текста */
-            }
-            .c:hover {
-                box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
-                background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
-                color: #a00;
-            }
-        </style>
+        <%--<link rel="shortcut icon" href="img/icon_bicycle.ico" type="image/x-icon">--%>
+
     </head>
     
     <body>
                                     <!--HEADER-DEDER-->
-        <div class="wp100 bg-grey h60">
-                <div class="float-l wp50 hp100 bg-pink">
-                    <h1 class="pdg10">BICYCLEPARTS</h1>
-                </div>
+        <div class="wp100 h60">
+
+            <div class="float-l wp10 hp100 bg-grey">
+                <img class="logo" src="img/logo_bicycle.jpg">
+                <%--<h1 class="pdg10">IMG</h1>--%>
+            </div>
+
+            <div class="float-l wp40 hp100 bg-grey">
+                <h1 class="pdg10">BICYCLEPARTS</h1>
+            </div>
+
+
+
+
+
             <div class="float-l wp30 hp100 bg-grey text-c bg-green">
                 <sec:authorize access="isAnonymous()">
                     <a href="/login" class="c">Sign in</a>

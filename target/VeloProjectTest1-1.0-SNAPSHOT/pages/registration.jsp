@@ -11,11 +11,23 @@
         <meta charset="utf-8"/>
         <title>Registration</title>
         <link rel="stylesheet" href="/css/main.css">
+
     </head>
     <body>
         <h1>
             Registration page
         </h1>
+
+    <form action="/saveUser" method="post">
+        <input type="hidden"
+            name="${_csrf.parameterName}"
+            value="${_csrf.token}"/>
+        <input type="" name="name" placeholder="name" class="c">
+        <input type="" name="surname" placeholder="surname" class="c">
+        <input type="" name="username" placeholder="username" class="c">
+        <input type="" name="password" placeholder="password" class="c">
+        <input type="submit" name="" placeholder="" class="c">
+    </form>
 
 
     </body>

@@ -45,7 +45,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         javaMailProperties.setProperty("mail.smtp.starttls.enable", "true");
         javaMailProperties.setProperty("mail.debug", "true");
 //        This is your computer's name
-//        javaMailProperties.setProperty("mail.smtp.localhost", "On1yWay");
+        javaMailProperties.setProperty("mail.smtp.localhost", "Computer's name");
         return mailSender;
     }
 }

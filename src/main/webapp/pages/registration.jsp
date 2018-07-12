@@ -5,6 +5,7 @@
   Time: 12:53
   To change this template use File | Settings | File Templates.
 --%>
+<%--xmlns:th="http://www.w3.org/1999/xhtml"--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
@@ -18,7 +19,7 @@
             Registration page
         </h1>
 
-    <form action="/saveUser" method="post">
+    <form action="/sendEmail" method="post">
         <input type="hidden"
             name="${_csrf.parameterName}"
             value="${_csrf.token}"/>
@@ -28,7 +29,6 @@
         <input type="" name="password" placeholder="password" class="c">
         <input type="submit" name="" placeholder="" class="c">
     </form>
-
-
+        <h3>${message}</h3>
     </body>
 </html>

@@ -20,9 +20,11 @@ public class MailServiceImpl implements MailService {
         MimeMessageHelper helper = new MimeMessageHelper(mimeMessage);
         try {
         helper.setTo(user.getUsername());
-        helper.setText("<h3>hello dear user with email " + user.getUsername());
+        helper.setText("<h3>Hello dear user with email " + user.getUsername()
+                + ". If you want to create a new account on our site, </h3>"
+                + "<a href = 'http://localhost:8080/saveUser'>confirm your application</a>", true);
 //        Your email login
-        helper.setFrom("tkachpavlo111@gmail.com");
+        helper.setFrom("");
         } catch (MessagingException e) {
             e.printStackTrace();
         }

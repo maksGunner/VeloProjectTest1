@@ -13,9 +13,7 @@ import java.security.Principal;
 @Controller
 public class MainController {
     @GetMapping("/")
-    public String index(Principal principal){
-
-        System.out.println(principal);
+    public String index(){
         return "index";}
 
     @GetMapping("/login")

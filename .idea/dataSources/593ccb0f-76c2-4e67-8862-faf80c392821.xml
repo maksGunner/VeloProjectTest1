@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="advans2">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bank"/>
+    <schema id="4" parent="1" name="dbrest"/>
+    <schema id="5" parent="1" name="dbsavefileandsaveemail"/>
+    <schema id="6" parent="1" name="dbspringboot1"/>
+    <schema id="7" parent="1" name="dbspringmvc"/>
+    <schema id="8" parent="1" name="department"/>
+    <schema id="9" parent="1" name="hiberles1"/>
+    <schema id="10" parent="1" name="information_schema"/>
+    <schema id="11" parent="1" name="jpa1"/>
+    <schema id="12" parent="1" name="jpapract1"/>
+    <schema id="13" parent="1" name="mail"/>
+    <schema id="14" parent="1" name="mysql"/>
+    <schema id="15" parent="1" name="newhomejpa1"/>
+    <schema id="16" parent="1" name="performance_schema"/>
+    <schema id="17" parent="1" name="sakila"/>
+    <schema id="18" parent="1" name="spring1"/>
+    <schema id="19" parent="1" name="spring2"/>
+    <schema id="20" parent="1" name="springform2"/>
+    <schema id="21" parent="1" name="sys"/>
+    <schema id="22" parent="1" name="users"/>
+    <schema id="23" parent="1" name="veloprojectdb1">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="24" parent="1" name="world"/>
+    <table id="25" parent="2" name="user"/>
+    <table id="26" parent="23" name="thing"/>
+    <table id="27" parent="23" name="user"/>
+    <column id="28" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="29" parent="25" name="name">
+      <Position>2</Position>
+      <DataType>varchar(55)|0</DataType>
+    </column>
+    <key id="30" parent="25" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="31" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="32" parent="26" name="img">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="33" parent="26" name="price">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="26" name="status">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="35" parent="26" name="title">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="36" parent="26" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="37" parent="27" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="38" parent="27" name="email">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="39" parent="27" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="40" parent="27" name="surname">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="41" parent="27" name="accNonExp">
+      <Position>5</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="27" name="accNonLock">
+      <Position>6</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="27" name="credNonExp">
+      <Position>7</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="27" name="enable">
+      <Position>8</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="27" name="password">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="46" parent="27" name="role">
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="47" parent="27" name="username">
+      <Position>11</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="48" parent="27" name="UK_jreodf78a7pl5qidfh43axdfb">
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="49" parent="27" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="50" parent="27" name="UK_jreodf78a7pl5qidfh43axdfb">
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>UK_jreodf78a7pl5qidfh43axdfb</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

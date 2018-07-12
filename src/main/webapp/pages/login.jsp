@@ -22,9 +22,5 @@
             <input type="" name="password" placeholder="password" class="c">
             <input type="submit" name="" placeholder="" class="c">
         </form>
-
-
-
-
     </body>
 </html>

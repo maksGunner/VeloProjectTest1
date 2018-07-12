@@ -27,6 +27,10 @@ public class MainController {
         return "login";
     }
 
+    @PostMapping("/loginSuccess")
+    public String loginSuccess(){
+        return "index";
+    }
 
     @GetMapping("/registration")
     public String registration(){

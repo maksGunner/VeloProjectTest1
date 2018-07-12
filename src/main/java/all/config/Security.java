@@ -76,7 +76,7 @@ public class Security extends WebSecurityConfigurerAdapter {
                 /*without this is use of spring loginpage*/
                 .loginPage("/login")
                 .loginProcessingUrl ("/logMe")
-                .successForwardUrl ("/")
+                .successForwardUrl ("/loginSuccess")
                 .passwordParameter("password")
                 .usernameParameter("username")
                 .and()

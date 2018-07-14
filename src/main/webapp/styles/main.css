@@ -176,11 +176,28 @@
 .bg-orange{
     background: orange
 }
-#frame{
-    background-image: url(/pics/frame.png);
+.parts{
     background-repeat: no-repeat;
     background-position: center ;
-    width: 100%;
+    /*border-right: 1px solid gray;*/
+}
+#frame{
+    background-image: url(/pics/frame.png);
+}
+#fork{
+    background-image: url(/pics/fork.png);
+}
+#cranks{
+    background-image: url(/pics/cranks.png);
+}
+#cassette{
+    background-image: url(/pics/cassette.png);
+}
+#derailleurs_front{
+    background-image: url(/pics/derailleurs_front.png);
+}
+#derailleurs_rear{
+    background-image: url(/pics/derailleurs_rear.png);
 }
 
 /*pavlo 06.07.2018  12.23*/

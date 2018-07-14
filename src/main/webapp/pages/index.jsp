@@ -55,23 +55,23 @@
         <div class="h700">
             <div class="hp100 wp20 bg-green float-l"></div>
             <div class="hp100 wp20 float-l">
-                <a href="/parts/frame"><div id="frame" class="wp100 hp50"></div></a>
-                <div class="wp100 hp50 bg-pink"></div>
+                <a href="/parts/frame"><div id="frame" class="wp100 hp50 parts"></div></a>
+                <a href="/parts/fork"><div id="fork" class="wp100 hp50 parts"></div></a>
             </div>
             <div class="h700 wp40 float-l">
                 <div class="hp30 wp100 float-l">
-                    <div class="hp100 wp50 bg-grey float-l"></div>
-                    <div class="hp100 wp50 bg-green float-l"></div>
+                    <a href="/parts/derailleurs_front"><div id="derailleurs_front" class="hp100 wp50 parts float-l"></div></a>
+                    <a href="/parts/derailleurs_rear"><div id="derailleurs_rear" class="hp100 wp50 parts float-l"></div></a>
                 </div>
                 <div class="wp100 hp40 bg-aqua float-l"></div>
                 <div class="hp30 wp100 float-l">
-                    <div class="hp100 wp50 bg-grey float-l"></div>
-                    <div class="hp100 wp50 bg-green float-l"></div>
+                    <a href="/parts/cranks"><div id="cranks" class="hp100 wp50 parts float-l"></div></a>
+                    <a href="/parts/cassette"><div id="cassette" class="hp100 wp50 parts float-l"></div></a>
                 </div>
             </div>
             <div class="hp100 wp20 float-l">
                 <div class="wp100 hp50 bg-orange float-l"></div>
-                <div class="wp100 hp50 bg-pink float-l"></div>
+                <a href=""><div id="" class="wp100 hp50 float-l parts"></div></a>
             </div>
         </div>
                                             <!--PARTS-->

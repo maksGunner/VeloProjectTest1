@@ -18,5 +18,11 @@ public class WebInit implements WebApplicationInitializer {
         ServletRegistration.Dynamic registration = servletContext.addServlet("dispatcherServlet", dispatcherServlet);
         registration.setLoadOnStartup(1);
         registration.addMapping("/");
+        registration.setMultipartConfig(new MultipartConfigElement(
+                "",
+                1000000,
+                1000000,
+                1000000
+        ));
     }
 }

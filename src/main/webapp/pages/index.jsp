@@ -55,7 +55,7 @@
         <div class="h700">
             <div class="hp100 wp20 bg-green float-l"></div>
             <div class="hp100 wp20 float-l">
-                <div class="wp100 hp50 bg-orange"></div>
+                <a href="/parts/frame"><div id="frame" class="wp100 hp50"></div></a>
                 <div class="wp100 hp50 bg-pink"></div>
             </div>
             <div class="h700 wp40 float-l">

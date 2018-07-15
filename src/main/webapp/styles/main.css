@@ -31,14 +31,16 @@
     float: left
 }
 
-.flaot-r{
+.float-r{
     float: right
 }
 
 .m-0-a{
     margin: 0 auto
 }
-
+.h2140{
+    height: 2140px;
+}
 .h700{
     height: 700px;
 }
@@ -46,16 +48,25 @@
     height: 575px;
 }
 
+.h500{
+    height: 500px
+}
 .h400{
     height: 400px
 }
 
+.h200{
+     height: 200px;
+}
 .h150{
     height: 150px;
 }
 
 .h60{
     height: 60px;
+}
+.h40{
+    height: 40px;
 }
 
 .hp100{
@@ -100,7 +111,7 @@
 .hp10{
     height: 10%
 }
-            
+
 
 .wp100{
     width: 100%
@@ -116,7 +127,7 @@
 }
 
 .wp50{
-    width: 50%
+    width: 49.75%
 }
 
 .wp40{
@@ -179,9 +190,25 @@
 .parts{
     background-repeat: no-repeat;
     background-position: center ;
-    /*border-right: 1px solid gray;*/
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.bor{
+    border: 1px solid red;
+}
+#title1{
+    background-repeat: no-repeat;
+    background-position: center ;
+    position: absolute;
+    background-color: rebeccapurple;
+    background-image: url(/pics/logo.jpg);
+    left: 0;
+ }
+#builds{
+    width: 99.9%;
 }
 #frame{
+    width: 99.7%;
     background-image: url(/pics/frame.png);
 }
 #fork{
@@ -199,18 +226,6 @@
 #derailleurs_rear{
     background-image: url(/pics/derailleurs_rear.png);
 }
-
-/*pavlo 06.07.2018  12.23*/
-
-.bor{
-    border: 1px solid red;
-}
-.h2140{
-    height: 2140px;
-}
-.h200{
-    height: 200px;
-}
-.h40{
-    height: 40px;
-}
+#saddle{
+     background-image: url(/pics/saddle.png);
+ }

@@ -15,12 +15,12 @@
     font-size: 18px;
     text-align: center;
     padding-top: 48px;
+    background-color: inherit;
 }
 .c:hover {
 
     color: black;
 }
-
 
 .logo{
     max-height: 100%;
@@ -32,6 +32,30 @@
     color: rgb(148, 148, 148);
     border: solid 1px rgb(148, 148, 148);
     padding: 1.5px
+}
+
+.search2{
+    display: block;
+}
+
+.label1{
+    display: block;
+    width: 250px;
+    height: 30px;
+    border: solid 1px rgb(148, 148, 148);
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.submit1{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: solid 1px rgb(148, 148, 148);
+    margin: 0 auto;
+    margin-top: 10px;
+
 }
 
 .ad{
@@ -47,6 +71,27 @@
     width: 32%;
     height: 200px;
     text-align: center
+}
+
+.loginPage{
+    display: block;
+    height: 130px;
+    width: 400px;
+    border: solid 1px rgb(148, 148, 148);
+}
+
+.RegistPage{
+    display: block;
+    height: 210px;
+    width: 400px;
+    border: solid 1px rgb(148, 148, 148);
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
                                                     /*HEIGHT*/
@@ -123,7 +168,22 @@
     float: left
 }
 
+.float-r{
+    float: right;
+}
+
+                                                    /*MARGIN*/
+
+.m-t-0{
+    margin: 0 auto;
+}
+
+
                                                     /*PADDING*/
+.pdg20{
+    padding: 20px;
+}
+
 .pdg-t-70{
     padding-top: 70px
 }
@@ -146,6 +206,10 @@
 
 .pdg-t-15{
     padding-top: 15px
+}
+
+.pdg-l-300{
+    padding-left: 300px;
 }
 
 .pdg-l-5{
@@ -185,6 +249,10 @@ a:hover{
 
 .border{
     border: solid 1px rgb(148, 148, 148)
+}
+
+.border-t{
+    border-top:solid 1px rgb(148, 148, 148) ;
 }
 
                                                     /*BACKGROUND*/

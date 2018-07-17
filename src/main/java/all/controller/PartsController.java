@@ -5,36 +5,36 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/parts")
+@RequestMapping("/boxes")
 public class PartsController {
 
-    @GetMapping("/frame")
-    public String frame(){
+    @GetMapping("/partAndComp")
+    public String partAndComp(){
         return "filter";
     }
 
-    @GetMapping("/fork")
-    public String fork(){
+    @GetMapping("/accessories")
+    public String accessories(){
         return "filter";
     }
 
-    @GetMapping("/cranks")
-    public String cranks(){
+    @GetMapping("/maintenance")
+    public String maintenance(){
         return "filter";
     }
 
-    @GetMapping("/cassette")
-    public String cassette(){
+    @GetMapping("/tools")
+    public String tools(){
         return "filter";
     }
 
-    @GetMapping("/derailleurs_front")
-    public String derailleurs_front(){
+    @GetMapping("/cyclingApparel")
+    public String CyclingApparel(){
         return "filter";
     }
 
-    @GetMapping("/derailleurs_rear")
-    public String derailleurs_rear(){
+    @GetMapping("/completeBicycles")
+    public String completeBicycles(){
         return "filter";
     }
 

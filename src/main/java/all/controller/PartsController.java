@@ -5,37 +5,51 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/boxes")
+@RequestMapping("/parts")
 public class PartsController {
 
-    @GetMapping("/partAndComp")
-    public String partAndComp(){
+    @GetMapping("/frame")
+    public String frame(){
         return "filter";
     }
 
-    @GetMapping("/accessories")
-    public String accessories(){
+    @GetMapping("/fork")
+    public String fork(){
         return "filter";
     }
 
-    @GetMapping("/maintenance")
-    public String maintenance(){
+    @GetMapping("/cranks")
+    public String cranks(){
         return "filter";
     }
 
-    @GetMapping("/tools")
-    public String tools(){
+    @GetMapping("/cassette")
+    public String cassette(){
         return "filter";
     }
 
-    @GetMapping("/cyclingApparel")
-    public String CyclingApparel(){
+    @GetMapping("/derailleurs_front")
+    public String derailleurs_front(){
         return "filter";
     }
 
-    @GetMapping("/completeBicycles")
-    public String completeBicycles(){
+    @GetMapping("/derailleurs_rear")
+    public String derailleurs_rear(){
         return "filter";
     }
 
+    @GetMapping("/saddle")
+    public String saddle(){
+        return "filter";
+    }
+
+    @GetMapping("/handlebars")
+    public String handlebars(){
+        return "filter";
+    }
+
+    @GetMapping("/wheels")
+    public String wheels(){
+        return "filter";
+    }
 }

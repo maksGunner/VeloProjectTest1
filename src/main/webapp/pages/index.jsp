@@ -1,6 +1,6 @@
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <!DOCTYPE HTML>
-
+<html>
 
     <head>
         <meta charset="utf-8"/>
@@ -41,7 +41,7 @@
 
             <sec:authorize access="isAuthenticated()">
                 <form action="/logoutMe" method="post">
-                    <input type="submit" name="" placeholder="" value="LOG OUT" class="c" style="background-color: inherit">
+                    <input type="submit" name="" placeholder="" value="LOG OUT" class="c">
                     <input type="hidden"
                            name="${_csrf.parameterName}"
                            value="${_csrf.token}"/>

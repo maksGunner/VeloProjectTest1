@@ -19,7 +19,7 @@ public class MainController {
     User user = new User();
     @GetMapping("/")
     public String index(Principal principal){
-        return "index1";
+        return "index";
     }
 
     @GetMapping("/login")
@@ -29,7 +29,7 @@ public class MainController {
 
     @PostMapping("/loginSuccess")
     public String loginSuccess(){
-        return "index1";
+        return "index";
     }
 
     @GetMapping("/registration")

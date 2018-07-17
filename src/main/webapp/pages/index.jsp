@@ -6,7 +6,7 @@
         <meta charset="utf-8"/>
         <title>BicycleParts</title>
         <link rel="stylesheet" href="/css/main.css">
-        <%--<link rel="shortcut icon" href="img/icon_bicycle.ico" type="image/x-icon">--%>
+        <link rel="shortcut icon" href="/pics/icon_bicycle.ico" type="image/x-icon">
 
     </head>
     
@@ -16,17 +16,12 @@
             <div class="wp100 h60">
 
                 <div class="float-l wp10 hp100 bg-grey">
-                    <img class="logo" src="img/logo_bicycle.jpg">
-                    <%--<h1 class="pdg10">IMG</h1>--%>
+                    <img class="logo" src="/pics/logo.jpg">
                 </div>
 
                 <div class="float-l wp40 hp100 bg-grey">
                     <h1 class="pdg10">BICYCLEPARTS</h1>
                 </div>
-
-
-
-
 
                 <div class="float-l wp30 hp100 bg-grey text-c bg-green">
                     <sec:authorize access="isAnonymous()">

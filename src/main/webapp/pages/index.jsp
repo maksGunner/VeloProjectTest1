@@ -12,10 +12,9 @@
     
     <body>
 
+                                                <!--Header-->
 
-    <div class="wp80 h20 bg-white">
-
-                                                    <!--Header-->
+    <div class="wp80 h100 bg-white">
 
         <div class="wp22 hp100 float-l">
             <a href="/"><img src="/pics/logo_bicycle.jpg" class="logo"></a>
@@ -23,7 +22,7 @@
 
         <div class="wp30 hp100 float-l text-c bg-white">
             <h3 class="pdg-t-30 font color-grey">
-                CONTACTS: <br> <a href="https://www.google.com.ua/maps">
+                CONTACTS: <br> <a href="https://www.google.com.ua/maps" target="_blank">
                 NEW YORK, NY 10001 </a> <br> +380 77 77 777
             </h3>
         </div>
@@ -63,6 +62,17 @@
 
     </div>
 
+    <div class="wp80 h50 bg-white">
+        <ul class="pdg10 pdg-l-30 m-0-a font color-grey">
+            <li class="navig border text-c"><a href="/boxes/partAndComp">BIKE PARTS &amp; COMPONENTS</a></li>
+            <li class="navig border text-c"><a href="/boxes/accessories">CYCLING ACCESORIES</a></li>
+            <li class="navig border text-c"><a href="/boxes/maintenance">BIKE MAINTENANCE</a></li>
+            <li class="navig border text-c"><a href="/boxes/tools">BIKE TOOLS</a></li>
+            <li class="navig border text-c"><a href="/boxes/cyclingApparel">CYCLING APPAREL</a></li>
+            <li class="navig border text-c"><a href="/boxes/completeBicycles">COMLETE BICYCLES</a></li>
+        </ul>
+    </div>
+
                                                     <!--Ad-->
 
     <div class="wp100 hp40 bg-white">
@@ -72,30 +82,30 @@
 
     <!--Second view-->
 
-    <div class="wp80 hp40 pdg-t-70">
+    <div class="wp80 hp40 pdg-t-70 font">
 
         <a href="/boxes/partAndComp"><div class="box">
-            <h3 class="pdg10">BIKE PARTS &amp; COMPONENTS</h3>
+            <h2 class="pdg10">BIKE PARTS &amp; COMPONENTS</h2>
             <img src="/pics/bike_parst.png">
         </div></a>
         <a href="/boxes/accessories"><div class="box">
-            <h3 class="pdg10">CYCLING ACCESORIES</h3>
+            <h2 class="pdg10">CYCLING ACCESORIES</h2>
             <img src="/pics/Accessories.png">
         </div></a>
         <a href="/boxes/maintenance"><div class="box">
-            <h3 class="pdg10">BIKE MAINTENANCE</h3>
+            <h2 class="pdg10">BIKE MAINTENANCE</h2>
             <img src="/pics/bike-maintenance.png">
         </div></a>
         <a href="/boxes/tools"><div class="box">
-            <h3 class="pdg10">BIKE TOOLS</h3>
+            <h2 class="pdg10">BIKE TOOLS</h2>
             <img src="/pics/bike-tools.png">
         </div></a>
         <a href="/boxes/cyclingApparel"><div class="box">
-            <h3 class="pdg10">CYCLING APPAREL</h3>
+            <h2 class="pdg10">CYCLING APPAREL</h2>
             <img src="/pics/BeFunky-Collage.png">
         </div></a>
         <a href="/boxes/completeBicycles"><div class="box">
-            <h3 class="pdg10">COMLETE BICYCLES</h3>
+            <h2 class="pdg10">COMLETE BICYCLES</h2>
             <img src="/pics/complete_bike.png">
         </div></a>
 

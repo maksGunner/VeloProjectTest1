@@ -1,0 +1,352 @@
+*{
+    margin: 0 auto;
+    border: 0;
+    padding: 0
+}
+
+
+        /*button*/
+.c {
+    /*border: 1px solid #333; !* Рамка *!*/
+    display: block;
+    /*padding: 5px 15px; !* Поля *!*/
+    text-decoration: none; /* Убираем подчёркивание */
+    color: rgb(148, 148, 148); /* Цвет текста */
+    font-size: 18px;
+    text-align: center;
+    padding-top: 48px;
+    background-color: inherit;
+}
+.c:hover {
+
+    color: black;
+}
+
+.logo{
+    max-height: 100%;
+    max-width: 100%
+}
+
+.search{
+    background: inherit;
+    color: rgb(148, 148, 148);
+    border: solid 1px rgb(148, 148, 148);
+    padding: 1.5px
+}
+
+.search2{
+    display: block;
+}
+
+.label1{
+    display: block;
+    width: 250px;
+    height: 30px;
+    border: solid 1px rgb(148, 148, 148);
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.submit1{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: solid 1px rgb(148, 148, 148);
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.ad{
+    width: 100%
+}
+
+.box{
+    /*    background: inherit;*/
+    color: rgb(148, 148, 148);
+    border: solid 1px rgb(148, 148, 148);
+    padding-top: 10px;
+    float: left;
+    width: 32%;
+    height: 100%;
+    text-align: center
+}
+
+.loginPage{
+    display: block;
+    height: 130px;
+    width: 400px;
+    border: solid 1px rgb(148, 148, 148);
+}
+
+.RegistPage{
+    display: block;
+    height: 210px;
+    width: 400px;
+    border: solid 1px rgb(148, 148, 148);
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/*ul.navig{*/
+    /*display: inline-block;*/
+/*}*/
+
+li.navig{
+    display: inline-block;
+    list-style-type: none;
+    height: 20px;
+    padding: 5px;
+    margin: 1px;
+    font-size: 17px;
+}
+
+ul.filter{
+    display: block;
+    width: 80%;
+    margin-bottom: 20px;
+    border: solid 1px rgb(148, 148, 148);
+    padding: 5px;
+}
+
+li.filter{
+    color: rgb(148, 148, 148);
+    padding: 5px;
+}
+
+                                                    /*HEIGHT*/
+
+.h500{
+    height: 500px
+}
+
+.h200{
+    height: 200px
+}
+
+.h150{
+    height: 150px
+}
+
+.h100{
+    height: 100px
+}
+
+.h80{
+    height: 80px;
+}
+
+.h50{
+    height: 50px;
+}
+
+.hp100{
+    height: 100%
+}
+
+.hp50{
+    height: 50%
+}
+
+.hp40{
+    height: 40%
+}
+
+.hp25{
+    height: 25%
+}
+
+.hp20{
+    height: 20%
+}
+.hpx100{
+    height: 100px;
+}
+
+                                                    /*WIDTH*/
+
+.wp100{
+    width: 100%
+}
+
+.wp90{
+    width: 90%;
+}
+
+.wp80{
+    width: 80%
+}
+
+.wp70{
+    width: 70%;
+}
+
+.wp33{
+    width: 33.33%
+}
+
+.wp30{
+    width: 30%
+}
+
+.wp24{
+    width: 24.5%
+}
+
+.wp23{
+    width: 23%
+}
+
+.wp22{
+    width: 22.5%
+}
+
+                                                    /*FLOAT*/
+
+.float-l{
+    float: left
+}
+
+.float-r{
+    float: right;
+}
+
+                                                    /*MARGIN*/
+
+.m-t-0{
+    margin: 0 auto;
+}
+
+.m-b-20{
+    margin-bottom: 20px;
+}
+
+
+
+                                                    /*PADDING*/
+.pdg20{
+    padding: 20px;
+}
+
+.pdg10{
+    padding: 10px;
+}
+
+.pdg5{
+    padding: 5px;
+}
+
+.pdg-t-70{
+    padding-top: 70px
+}
+
+.pdg-t-50{
+    padding-top: 50px;
+}
+
+.pdg-t-43{
+    padding-top: 43px
+}
+
+.pdg-t-30{
+    padding-top: 30px
+}
+
+.pdg-t-20{
+    padding-top: 20px
+}
+
+.pdg-t-15{
+    padding-top: 15px
+}
+
+.pdg-t-5{
+    padding-top: 5px;
+}
+
+.pdg-l-300{
+    padding-left: 300px;
+}
+
+.pdg-l-30{
+    padding-left: 30px;
+}
+
+.pdg-l-5{
+    padding-left: 5px
+}
+
+                                                /*TEXT*/
+
+.text-c{
+    text-align: center
+}
+
+.font{
+    font-family:
+        /*        Ubuntu, Arial, Helvetica, sans-serif*/
+            monospace
+}
+
+.color-grey{
+    color: rgb(148, 148, 148)
+}
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+
+li{
+    list-style-type: none
+}
+
+a:hover{
+    color: black
+}
+
+                                                    /*BORDER*/
+
+.border{
+    border: solid 1px rgb(148, 148, 148)
+}
+
+.border-t{
+    border-top:solid 1px rgb(148, 148, 148) ;
+}
+
+                                                    /*BACKGROUND*/
+
+.bg-grey{
+    background: grey
+}
+
+.bg-aqua{
+    background: aqua
+}
+
+.bg-red{
+    background: red
+}
+
+.bg-white{
+    background: white
+}
+
+.bg-green{
+    background: green
+}
+
+.bg-pink{
+    background: pink
+}
+
+.bg-orange{
+    background: orange
+}

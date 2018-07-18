@@ -38,4 +38,18 @@ public class PartsController {
         return "filter";
     }
 
+    @GetMapping("/saddle")
+    public String saddle(){
+        return "filter";
+    }
+
+    @GetMapping("/handlebars")
+    public String handlebars(){
+        return "filter";
+    }
+
+    @GetMapping("/wheels")
+    public String wheels(){
+        return "filter";
+    }
 }

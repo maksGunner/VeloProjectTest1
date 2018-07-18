@@ -74,18 +74,30 @@
 
     <div class="wp80 hp40 pdg-t-70">
 
-        <div class="box">
-            <h3 class="pdg10">BIKE PARTS &amp; COMPONENTS</h3></div>
-        <div class="box">
-            <h3 class="pdg10">CYCLING ACCESORIES</h3></div>
-        <div class="box">
-            <h3 class="pdg10">BIKE MAINTENANCE</h3></div>
-        <div class="box">
-            <h3 class="pdg10">BIKE TOOLS</h3></div>
-        <div class="box">
-            <h3 class="pdg10">CYCLING APPAREL</h3></div>
-        <div class="box">
-            <h3 class="pdg10">COMLETE BICYCLES</h3></div>
+        <a href="/boxes/partAndComp"><div class="box">
+            <h3 class="pdg10">BIKE PARTS &amp; COMPONENTS</h3>
+            <img src="/pics/bike_parst.png">
+        </div></a>
+        <a href="/boxes/accessories"><div class="box">
+            <h3 class="pdg10">CYCLING ACCESORIES</h3>
+            <img src="/pics/Accessories.png">
+        </div></a>
+        <a href="/boxes/maintenance"><div class="box">
+            <h3 class="pdg10">BIKE MAINTENANCE</h3>
+            <img src="/pics/bike-maintenance.png">
+        </div></a>
+        <a href="/boxes/tools"><div class="box">
+            <h3 class="pdg10">BIKE TOOLS</h3>
+            <img src="/pics/bike-tools.png">
+        </div></a>
+        <a href="/boxes/cyclingApparel"><div class="box">
+            <h3 class="pdg10">CYCLING APPAREL</h3>
+            <img src="/pics/BeFunky-Collage.png">
+        </div></a>
+        <a href="/boxes/completeBicycles"><div class="box">
+            <h3 class="pdg10">COMLETE BICYCLES</h3>
+            <img src="/pics/complete_bike.png">
+        </div></a>
 
                                                         <!--FOOTER-->
 

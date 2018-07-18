@@ -66,7 +66,7 @@
     /*    background: inherit;*/
     color: rgb(148, 148, 148);
     border: solid 1px rgb(148, 148, 148);
-    padding-top: 50px;
+    padding-top: 10px;
     float: left;
     width: 32%;
     height: 200px;
@@ -130,6 +130,9 @@
 
 .hp20{
     height: 20%
+}
+.hpx100{
+    height: 100px;
 }
 
                                                     /*WIDTH*/

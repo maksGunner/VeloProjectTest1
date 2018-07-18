@@ -106,7 +106,7 @@
         </div>
         <div class="wp70 float-l pdg-t-50 bg-white">
 
-            <div class="wp90 h150 m-b-20 border"></div>
+            <div class="wp90 h150 m-b-20 border"><a href="/thing/frame">GET</a></div>
             <div class="wp90 h150 m-b-20 border"></div>
             <div class="wp90 h150 m-b-20 border"></div>
             <div class="wp90 h150 m-b-20 border"></div>

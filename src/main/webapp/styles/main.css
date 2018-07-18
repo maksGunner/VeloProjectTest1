@@ -66,10 +66,9 @@
     /*    background: inherit;*/
     color: rgb(148, 148, 148);
     border: solid 1px rgb(148, 148, 148);
-    padding-top: 10px;
+    padding: 0 0 15px 0;
     float: left;
     width: 32%;
-    height: 100%;
     text-align: center
 }
 
@@ -122,8 +121,16 @@ li.filter{
 
                                                     /*HEIGHT*/
 
+.h600{
+    height: 600px
+}
+
 .h500{
     height: 500px
+}
+
+.h300{
+    height: 300px
 }
 
 .h200{
@@ -180,41 +187,52 @@ li.filter{
 }
 
 .wp80{
-    width: 80%
+    width: 80%;
 }
 
 .wp70{
     width: 70%;
 }
 
+.wp60{
+    width: 60%;
+}
+
+.wp40{
+    width: 40%;
+}
+
 .wp33{
-    width: 33.33%
+    width: 33.33%;
 }
 
 .wp30{
-    width: 30%
+    width: 30%;
 }
 
 .wp24{
-    width: 24.5%
+    width: 24.5%;
 }
 
 .wp23{
-    width: 23%
+    width: 23%;
 }
 
 .wp22{
-    width: 22.5%
+    width: 22.5%;
 }
 
                                                     /*FLOAT*/
 
 .float-l{
-    float: left
+    float: left;
 }
 
 .float-r{
     float: right;
+}
+.clear-b{
+    clear: both;
 }
 
                                                     /*MARGIN*/
@@ -223,6 +241,9 @@ li.filter{
     margin: 0 auto;
 }
 
+.m-t-20{
+    margin-top: 20px;
+}
 .m-b-20{
     margin-bottom: 20px;
 }

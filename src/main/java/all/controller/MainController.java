@@ -52,6 +52,7 @@ public class MainController {
 
         return "redirect:/";
     }
+
     @Autowired
     MailService mailService;
     @PostMapping("/sendEmail")

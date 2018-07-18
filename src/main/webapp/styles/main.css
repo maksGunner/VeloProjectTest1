@@ -69,7 +69,7 @@
     padding-top: 10px;
     float: left;
     width: 32%;
-    height: 200px;
+    height: 100%;
     text-align: center
 }
 
@@ -94,6 +94,32 @@
     left: 0;
 }
 
+/*ul.navig{*/
+    /*display: inline-block;*/
+/*}*/
+
+li.navig{
+    display: inline-block;
+    list-style-type: none;
+    height: 20px;
+    padding: 5px;
+    margin: 1px;
+    font-size: 17px;
+}
+
+ul.filter{
+    display: block;
+    width: 80%;
+    margin-bottom: 20px;
+    border: solid 1px rgb(148, 148, 148);
+    padding: 5px;
+}
+
+li.filter{
+    color: rgb(148, 148, 148);
+    padding: 5px;
+}
+
                                                     /*HEIGHT*/
 
 .h500{
@@ -110,6 +136,14 @@
 
 .h100{
     height: 100px
+}
+
+.h80{
+    height: 80px;
+}
+
+.h50{
+    height: 50px;
 }
 
 .hp100{
@@ -141,8 +175,16 @@
     width: 100%
 }
 
+.wp90{
+    width: 90%;
+}
+
 .wp80{
     width: 80%
+}
+
+.wp70{
+    width: 70%;
 }
 
 .wp33{
@@ -181,18 +223,31 @@
     margin: 0 auto;
 }
 
+.m-b-20{
+    margin-bottom: 20px;
+}
+
+
 
                                                     /*PADDING*/
 .pdg20{
     padding: 20px;
 }
 
+.pdg10{
+    padding: 10px;
+}
+
+.pdg5{
+    padding: 5px;
+}
+
 .pdg-t-70{
     padding-top: 70px
 }
 
-.pdg-t-30{
-    padding-top: 30px
+.pdg-t-50{
+    padding-top: 50px;
 }
 
 .pdg-t-43{
@@ -211,8 +266,16 @@
     padding-top: 15px
 }
 
+.pdg-t-5{
+    padding-top: 5px;
+}
+
 .pdg-l-300{
     padding-left: 300px;
+}
+
+.pdg-l-30{
+    padding-left: 30px;
 }
 
 .pdg-l-5{

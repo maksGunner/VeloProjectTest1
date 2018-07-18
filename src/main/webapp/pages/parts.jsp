@@ -26,7 +26,7 @@
 
             <div class="wp30 float-l text-c bg-white">
                 <h3 class="pdg-t-30 font color-grey">
-                    CONTACTS: <br> <a href="https://www.google.com.ua/maps">
+                    CONTACTS: <br> <a href="https://www.google.com.ua/maps" target="_blank">
                     NEW YORK, NY 10001 </a> <br> +380 77 77 777
                 </h3>
             </div>
@@ -65,51 +65,62 @@
 
         </div>
 
+        <div class="wp100 h50 bg-white">
+            <ul class="pdg10 pdg-l-30 m-0-a font color-grey">
+                <li class="navig border text-c"><a href="/boxes/partAndComp">BIKE PARTS &amp; COMPONENTS</a></li>
+                <li class="navig border text-c"><a href="/boxes/accessories">CYCLING ACCESORIES</a></li>
+                <li class="navig border text-c"><a href="/boxes/maintenance">BIKE MAINTENANCE</a></li>
+                <li class="navig border text-c"><a href="/boxes/tools">BIKE TOOLS</a></li>
+                <li class="navig border text-c"><a href="/boxes/cyclingApparel">CYCLING APPAREL</a></li>
+                <li class="navig border text-c"><a href="/boxes/completeBicycles">COMLETE BICYCLES</a></li>
+            </ul>
+        </div>
+
         <div class="wp80 hp40 pdg-t-70">
-            <h3 class="text-c pdg20">BIKE PARTS & COMPONENTS</h3>
+            <h2 class="text-c pdg20 font">BIKE PARTS & COMPONENTS</h2>
 
             <a href="/parts/frame"><div class="box">
-                <h3 class="pdg10">FRAME</h3>
+                <h2 class="pdg10 font">FRAME</h2>
                 <img src="/pics/frame.png">
             </div></a>
 
             <a href="/parts/handlebars"><div class="box">
-                <h3 class="pdg10">HANDLEBARS</h3>
+                <h2 class="pdg10 font">HANDLEBARS</h2>
                 <img src="/pics/handlebars.png">
             </div></a>
 
             <a href="/parts/wheels"><div class="box">
-                <h3 class="pdg10">WHEELS</h3>
+                <h2 class="pdg10 font">WHEELS</h2>
                 <img src="/pics/wheels.png">
             </div></a>
 
             <a href="/parts/fork"><div class="box">
-                <h3 class="pdg10">FORK</h3>
+                <h2 class="pdg10 font">FORK</h2>
                 <img src="/pics/fork.png">
             </div></a>
 
             <a href="/parts/saddle"><div class="box">
-                <h3 class="pdg10">SADDLE</h3>
+                <h2 class="pdg10 font">SADDLE</h2>
                 <img src="/pics/saddle.png">
             </div></a>
 
             <a href="/parts/cranks"><div class="box">
-                <h3 class="pdg10">CRANKS</h3>
+                <h2 class="pdg10 font">CRANKS</h2>
                 <img src="/pics/cranks.png">
             </div></a>
 
             <a href="/parts/cassette"><div class="box">
-                <h3 class="pdg10">CASSETTE</h3>
+                <h2 class="pdg10 font">CASSETTE</h2>
                 <img src="/pics/cassette.png">
             </div></a>
 
             <a href="/parts/derailleurs_front"><div class="box">
-                <h3 class="pdg10">DERAILLEURS FRONT</h3>
+                <h2 class="pdg10 font">DERAILLEURS FRONT</h2>
                 <img src="/pics/derailleurs_front.png">
             </div></a>
 
             <a href="/parts/derailleurs_rear"><div class="box">
-                <h3 class="pdg10">DERAILLEURS REAR</h3>
+                <h2 class="pdg10 font">DERAILLEURS REAR</h2>
                 <img src="/pics/derailleurs_rear.png">
             </div></a>
 

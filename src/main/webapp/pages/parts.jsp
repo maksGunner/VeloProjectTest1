@@ -76,7 +76,7 @@
             </ul>
         </div>
 
-        <div class="wp80 hp40 pdg-t-70">
+        <div class="wp80">
             <h2 class="text-c pdg20 font">BIKE PARTS & COMPONENTS</h2>
 
             <a href="/parts/frame"><div class="box">

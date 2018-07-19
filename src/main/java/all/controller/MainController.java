@@ -62,4 +62,9 @@ public class MainController {
         model.addAttribute("message", "You need to confirm your application on gmail account");
         return "registration";
     }
+
+    @GetMapping("/thing/frame")
+    public String thingFframe(){
+        return "goods";
+    }
 }

@@ -11,13 +11,14 @@
     <head>
         <title>parts</title>
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="shortcut icon" href="/pics/icon_bicycle.ico" type="image/x-icon">
     </head>
     <body>
     <div class="wp80">
 
         <!--Header-->
 
-        <div class="wp100 hp20">
+        <div class="wp100 h100 bg-white">
 
 
             <div class="wp22 float-l">
@@ -79,56 +80,73 @@
         <div class="wp80">
             <h2 class="text-c pdg20 font">BIKE PARTS & COMPONENTS</h2>
 
-            <a href="/parts/frame"><div class="box">
-                <h2 class="pdg10 font">FRAME</h2>
-                <img src="/pics/frame.png">
-            </div></a>
+            <a href="/parts/frame">
+                <div class="box hp30">
+                    <h2 class="pdg10 font">FRAME</h2>
+                    <img src="/pics/frame.png" class="logo">
+                </div>
+            </a>
 
-            <a href="/parts/handlebars"><div class="box">
-                <h2 class="pdg10 font">HANDLEBARS</h2>
-                <img src="/pics/handlebars.png">
-            </div></a>
+            <a href="/parts/handlebars">
+                <div class="box hp30">
+                    <h2 class="pdg10 font">HANDLEBARS</h2>
+                    <img src="/pics/handlebars.png" class="logo">
+                </div>
+            </a>
 
-            <a href="/parts/wheels"><div class="box">
-                <h2 class="pdg10 font">WHEELS</h2>
-                <img src="/pics/wheels.png">
-            </div></a>
+            <a href="/parts/wheels">
+                <div class="box hp30">
+                    <h2 class="pdg10 font">WHEELS</h2>
+                    <img src="/pics/wheels.png" class="logo">
+                </div></a>
 
-            <a href="/parts/fork"><div class="box">
-                <h2 class="pdg10 font">FORK</h2>
-                <img src="/pics/fork.png">
-            </div></a>
+            <a href="/parts/fork">
+                <div class="box hp30">
+                    <h2 class="pdg10 font">FORK</h2>
+                    <img src="/pics/fork.png" class="logo">
+                </div>
+            </a>
 
-            <a href="/parts/saddle"><div class="box">
-                <h2 class="pdg10 font">SADDLE</h2>
-                <img src="/pics/saddle.png">
-            </div></a>
+            <a href="/parts/saddle">
+                <div class="box hp30">
+                    <h2 class="pdg10 font">SADDLE</h2>
+                    <img src="/pics/saddle.png" class="logo">
+                </div>
+            </a>
 
-            <a href="/parts/cranks"><div class="box">
-                <h2 class="pdg10 font">CRANKS</h2>
-                <img src="/pics/cranks.png">
-            </div></a>
+            <a href="/parts/cranks">
+                <div class="box hp30">
+                    <h2 class="pdg10 font">CRANKS</h2>
+                    <img src="/pics/cranks.png" class="logo">
+                </div>
+            </a>
 
-            <a href="/parts/cassette"><div class="box">
-                <h2 class="pdg10 font">CASSETTE</h2>
-                <img src="/pics/cassette.png">
-            </div></a>
+            <a href="/parts/cassette">
+                <div class="box hp30">
+                    <h2 class="pdg10 font">CASSETTE</h2>
+                    <img src="/pics/cassette.png" class="logo">
+                </div>
+            </a>
 
-            <a href="/parts/derailleurs_front"><div class="box">
-                <h2 class="pdg10 font">DERAILLEURS FRONT</h2>
-                <img src="/pics/derailleurs_front.png">
-            </div></a>
+            <a href="/parts/derailleurs_front">
+                <div class="box hp30">
+                    <h2 class="pdg10 font">DERAILLEURS FRONT</h2>
+                    <img src="/pics/derailleurs_front.png" class="logo">
+                </div>
+            </a>
 
-            <a href="/parts/derailleurs_rear"><div class="box">
-                <h2 class="pdg10 font">DERAILLEURS REAR</h2>
-                <img src="/pics/derailleurs_rear.png">
-            </div></a>
+            <a href="/parts/derailleurs_rear">
+                <div class="box hp30">
+                    <h2 class="pdg10 font">DERAILLEURS REAR</h2>
+                    <img src="/pics/derailleurs_rear.png" class="logo">
+                </div>
+            </a>
 
-            <!--FOOTER-->
+        </div>
+        <!--FOOTER-->
 
-            <div class="h100 wp100 float-l">
-                <h1 class="text-c font color-grey pdg-t-30">FOOTER</h1>
-            </div>
+        <div class="h100 wp100 float-l border-t m-t-50">
+            <h1 class="text-c font color-grey pdg-t-30">FOOTER</h1>
         </div>
     </div>
     </body>

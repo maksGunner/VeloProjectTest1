@@ -48,6 +48,15 @@
     padding-left: 5px;
 }
 
+.label2{
+    /*display: block;*/
+    width: 30px;
+    height: 20px;
+    padding: 2px;
+    border:solid 1px rgb(148, 148, 148);
+    /*float: left;*/
+}
+
 .submit1{
     display: block;
     width: 100px;
@@ -55,6 +64,15 @@
     border: solid 1px rgb(148, 148, 148);
     margin: 0 auto;
     margin-top: 10px;
+}
+
+.submit2{
+    /*display: block;*/
+    width: 70px;
+    height: 26px;
+    padding: 2px;
+    border: solid 1px rgb(148, 148, 148);
+    /*margin: 5px;*/
 
 }
 
@@ -68,8 +86,9 @@
     border: solid 1px rgb(148, 148, 148);
     padding: 0 0 15px 0;
     float: left;
-    width: 32%;
-    text-align: center
+    width: 31.9%;
+    text-align: center;
+    margin: 5px;
 }
 
 .loginPage{
@@ -108,10 +127,11 @@ li.navig{
 
 ul.filter{
     display: block;
-    width: 80%;
+    width: 75%;
     margin-bottom: 20px;
     border: solid 1px rgb(148, 148, 148);
     padding: 5px;
+    margin-left: 40px;
 }
 
 li.filter{
@@ -166,6 +186,10 @@ li.filter{
 
 .hp40{
     height: 40%
+}
+
+.hp30{
+    height: 30%;
 }
 
 .hp25{
@@ -243,11 +267,23 @@ li.filter{
     margin: 0 auto;
 }
 
+.m-t-70{
+    margin-top: 70px;
+}
+
+.m-t-50{
+    margin-top: 50px;
+}
+
 .m-t-20{
     margin-top: 20px;
 }
 .m-b-20{
     margin-bottom: 20px;
+}
+
+.m-b-5{
+    margin-bottom: 5px;
 }
 
 
@@ -342,6 +378,10 @@ a:hover{
 
 .border-t{
     border-top:solid 1px rgb(148, 148, 148) ;
+}
+
+.border-b{
+    border-bottom:solid 1px rgb(148, 148, 148) ;
 }
 
                                                     /*BACKGROUND*/

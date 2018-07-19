@@ -15,9 +15,10 @@
                 <img src="/pics/logo_bicycle.jpg" class="logo">
             </div></a>
             <div class="wp30 hp100 float-l text-c bg-white">
-                <h3 class="pdg-t-30 font color-grey">CONTACTS:</h3>
-                <a href="https://www.google.com.ua/maps" target="_blank" class="font color-grey">NEW YORK, NY 10001 </a>
-                <h3 class="font color-grey"> +380 77 77 777</h3>
+                <h3 class="pdg-t-30 font color-grey">
+                    CONTACTS: <br> <a href="https://www.google.com.ua/maps" target="_blank">
+                    NEW YORK, NY 10001 </a> <br> +380 77 77 777
+                </h3>
             </div>
             <div class="hp100 wp23 float-l bg-white">
                 <sec:authorize access="isAnonymous()">
@@ -57,35 +58,60 @@
             <img src="/pics/bike-panorama.jpg" class="ad">
         </div>
         <!--Second view-->
-        <div class="wp80 hp40 pdg-t-70 font">
-            <a href="/boxes/partAndComp"><div class="box">
-                <h2 class="pdg10">BIKE PARTS &amp; COMPONENTS</h2>
-                <img src="/pics/bike_parst.png">
-            </div></a>
-            <a href="/boxes/accessories"><div class="box">
-                <h2 class="pdg10">CYCLING ACCESORIES</h2>
-                <img src="/pics/Accessories.png">
-            </div></a>
-            <a href="/boxes/maintenance"><div class="box">
-                <h2 class="pdg10">BIKE MAINTENANCE</h2>
-                <img src="/pics/bike-maintenance.png">
-            </div></a>
-            <a href="/boxes/tools"><div class="box">
-                <h2 class="pdg10">BIKE TOOLS</h2>
-                <img src="/pics/bike-tools.png">
-            </div></a>
-            <a href="/boxes/cyclingApparel"><div class="box">
-                <h2 class="pdg10">CYCLING APPAREL</h2>
-                <img src="/pics/BeFunky-Collage.png">
-            </div></a>
-            <a href="/boxes/completeBicycles"><div class="box">
-                <h2 class="pdg10">COMLETE BICYCLES</h2>
-                <img src="/pics/complete_bike.png">
-            </div></a>
-            <!--FOOTER-->
-            <div class="h100 wp100 float-l">
-                <h1 class="text-c font color-grey pdg-t-30">FOOTER</h1>
-            </div>
+        <div class="wp80">
+        <div class="wp80 h500 m-t-70 font">
+
+            <a href="/boxes/partAndComp">
+                <div class="box hp40">
+                    <h2 class="pdg10">BIKE PARTS &amp; COMPONENTS</h2>
+                    <img src="/pics/bike_parst.png" class="logo">
+                </div>
+            </a>
+
+            <a href="/boxes/accessories">
+                <div class="box hp40">
+                    <h2 class="pdg10">CYCLING ACCESORIES</h2>
+                    <img src="/pics/Accessories.png" class="logo">
+                </div>
+            </a>
+
+            <a href="/boxes/maintenance">
+                <div class="box hp40">
+                    <h2 class="pdg10">BIKE MAINTENANCE</h2>
+                    <img src="/pics/bike-maintenance.png" class="logo">
+                </div>
+            </a>
+
+            <a href="/boxes/tools">
+                <div class="box hp40">
+                    <h2 class="pdg10">BIKE TOOLS</h2>
+                    <img src="/pics/bike-tools.png" class="logo">
+                </div>
+            </a>
+
+            <a href="/boxes/cyclingApparel">
+                <div class="box hp40">
+                    <h2 class="pdg10">CYCLING APPAREL</h2>
+                    <img src="/pics/BeFunky-Collage.png" class="logo">
+                </div>
+            </a>
+
+            <a href="/boxes/completeBicycles">
+                <div class="box hp40">
+                    <h2 class="pdg10">COMLETE BICYCLES</h2>
+                    <img src="/pics/complete_bike.png" class="logo">
+                </div>
+            </a>
+
         </div>
+        </div>
+
+
+        <!--FOOTER-->
+        <div class="wp80 h100 border-t">
+            <h1 class="text-c font color-grey pdg-t-30">FOOTER</h1>
+        </div>
+
+
     </body>
 </html>

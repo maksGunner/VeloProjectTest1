@@ -7,7 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity
+//@Entity
 public class Frame extends Thing {
 
     @Id
@@ -27,7 +27,7 @@ public class Frame extends Thing {
     }
 
     public Frame(String title, String img, String describe, int price, String status, String brand, String material, String size) {
-        super(title, img, describe, price, status);
+//        super(title, img, describe, price, status);
         this.brand = brand;
         this.material = material;
         this.size = size;

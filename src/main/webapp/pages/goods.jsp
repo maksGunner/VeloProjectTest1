@@ -54,13 +54,21 @@
             </div>
                                                         <!--GOODS-->
             <div class="h600">
-                <div class="wp40 hp100 float-l">
-                    <div class="m-t-20 wp80 h300 border"></div>
+                <div class="wp40 hp100 float-l text-c">
+                    <div class="m-t-20 pdg20 wp80 h260 border">
+                        <img src="${thing.img}">
+                    </div>
                 </div>
                 <div class="wp60 hp100 float-l">
-                    <div class="m-t-20 hp20 wp100 border"></div>
-                    <div class="hp20 wp100 border"></div>
-                    <div class="hp20 wp100 border"></div>
+                    <div class="m-t-20 hp20 wp100 border">
+                        <h3>ID: "${thing.id}"</h3>
+                    </div>
+                    <div class="hp20 wp100 border">
+                        <h3>TITLE: "${thing.title}"</h3>
+                    </div>
+                    <div class="hp20 wp100 border">
+                        <h3>PRICE: "${thing.price}"</h3>
+                    </div>
                 </div>
             </div>
                                                     <!-- Footer -->

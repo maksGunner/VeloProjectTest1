@@ -2,23 +2,24 @@ package all.controller;
 
 import all.entity.User;
 import all.service.Mail.MailService;
+import all.service.ThingService;
 import all.service.UserService;
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-
-import java.security.Principal;
 
 @Controller
 public class MainController {
     User user = new User();
+
+    @Autowired
+    ThingService thingService;
+
     @GetMapping("/")
-    public String index(Principal principal){
+    public String index(){
         return "index";
     }
 
@@ -64,7 +65,8 @@ public class MainController {
     }
 
     @GetMapping("/thing/frame")
-    public String thingFframe(){
+    public String thingFframe(Model model) {
+        model.addAttribute("thing", thingService.findOne(1));
         return "goods";
     }
 }

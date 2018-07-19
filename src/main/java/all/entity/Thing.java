@@ -1,32 +1,27 @@
 package all.entity;
 
-import all.resource.Status;
-
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-
-public abstract class Thing {
+@Entity
+public class Thing {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String title;
     private String img;
-    private String describe;
     private int price;
-    private String status;
 
 
     public Thing() {
     }
 
-    public Thing(String title, String img, String describe, int price, String status) {
+    public Thing(String title, String img, String describe, int price) {
         this.title = title;
         this.img = img;
-        this.describe = describe;
         this.price = price;
-        this.status = status;
     }
 
     public int getId() {
@@ -53,14 +48,6 @@ public abstract class Thing {
         this.img = img;
     }
 
-    public String getDescribe() {
-        return describe;
-    }
-
-    public void setDescribe(String describe) {
-        this.describe = describe;
-    }
-
     public int getPrice() {
         return price;
     }
@@ -69,23 +56,13 @@ public abstract class Thing {
         this.price = price;
     }
 
-    public String getString() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
     @Override
     public String toString() {
         return "Thing{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", img='" + img + '\'' +
-                ", describe='" + describe + '\'' +
                 ", price=" + price +
-                ", status=" + status +
                 '}';
     }
 }

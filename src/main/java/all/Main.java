@@ -1,8 +1,13 @@
 package all;
 
-import all.entity.Frame;
+
+import javax.persistence.EntityManagerFactory;
 
 public class Main {
+    public static void main(String[] args) {
 
 
+
+
+    }
 }

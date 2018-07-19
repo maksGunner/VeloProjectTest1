@@ -68,8 +68,9 @@
     border: solid 1px rgb(148, 148, 148);
     padding: 0 0 15px 0;
     float: left;
-    width: 32%;
-    text-align: center
+    width: 31.9%;
+    text-align: center;
+    margin: 5px;
 }
 
 .loginPage{
@@ -108,10 +109,11 @@ li.navig{
 
 ul.filter{
     display: block;
-    width: 80%;
+    width: 75%;
     margin-bottom: 20px;
     border: solid 1px rgb(148, 148, 148);
     padding: 5px;
+    margin-left: 40px;
 }
 
 li.filter{
@@ -163,6 +165,10 @@ li.filter{
 
 .hp40{
     height: 40%
+}
+
+.hp30{
+    height: 30%;
 }
 
 .hp25{
@@ -239,6 +245,14 @@ li.filter{
 
 .m-t-0{
     margin: 0 auto;
+}
+
+.m-t-70{
+    margin-top: 70px;
+}
+
+.m-t-50{
+    margin-top: 50px;
 }
 
 .m-t-20{

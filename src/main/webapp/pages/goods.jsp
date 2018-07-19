@@ -6,6 +6,7 @@
         <meta charset="utf-8"/>
         <title>Some goods</title>
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="shortcut icon" href="/pics/icon_bicycle.ico" type="image/x-icon">
     </head>
     <body>
         <div class="wp80">

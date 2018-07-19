@@ -16,9 +16,10 @@
                     <img src="/pics/logo_bicycle.jpg" class="logo">
                 </div></a>
                 <div class="wp30 hp100 float-l text-c bg-white">
-                    <h3 class="pdg-t-30 font color-grey">CONTACTS:</h3>
-                    <a href="https://www.google.com.ua/maps" target="_blank" class="font color-grey">NEW YORK, NY 10001 </a>
-                    <h3 class="font color-grey"> +380 77 77 777</h3>
+                    <h3 class="pdg-t-30 font color-grey">
+                        CONTACTS: <br> <a href="https://www.google.com.ua/maps" target="_blank">
+                        NEW YORK, NY 10001 </a> <br> +380 77 77 777
+                    </h3>
                 </div>
                 <div class="hp100 wp23 float-l bg-white">
                     <sec:authorize access="isAnonymous()">
@@ -55,18 +56,52 @@
             </div>
                                                         <!--GOODS-->
             <div class="h600">
-                <div class="wp40 hp100 float-l">
-                    <div class="m-t-20 wp80 h300 border"></div>
+                <div class="wp40 hp100 float-l text-c">
+                    <div class="m-t-20 pdg20 wp80 h260 border">
+                        <img src="${thing.img}">
+                    </div>
                 </div>
-                <div class="wp60 hp100 float-l">
-                    <div class="m-t-20 hp20 wp100 border"></div>
-                    <div class="hp20 wp100 border"></div>
-                    <div class="hp20 wp100 border"></div>
+                <div class="wp60 float-l">
+
+                    <div class="m-t-20 h50 border-b pdg5">
+                        <h2>"${thing.title}"</h2>
+                    </div>
+
+                    <div class="h50 border-b pdg5">
+                        <h4>Product ID: "${thing.id}"</h4>
+                    </div>
+
+                    <div class="h50 border-b pdg5">
+                        <h4>Brand:</h4>
+                    </div>
+
+                    <div class="h50 border-b pdg5">
+                        <h4>Category: </h4>
+                    </div>
+
+                    <div class="h50 border-b pdg5">
+                        <h4>Availability: </h4>
+                    </div>
+
+                    <div class="h50 border-b pdg5">
+                        <h2>Price: &#8372 ${thing.price}</h2>
+                    </div>
+
+                    <div class="h50 border-b pdg5">
+                        <h4 class="m-b-5">QTY: </h4>
+                        <form>
+                            <input type="text" name="qty" placeholder="1" class="label2">
+                            <input type="submit" name="" placeholder="" value="Add to cart" class="submit2">
+                        </form>
+                    </div>
+
+
+
                 </div>
             </div>
                                                     <!-- Footer -->
 
-            <div class="h100 clear-b">
+            <div class="h100 clear-b border-t">
                 <h1 class="text-c font color-grey pdg-t-30">FOOTER</h1>
             </div>
         </div>

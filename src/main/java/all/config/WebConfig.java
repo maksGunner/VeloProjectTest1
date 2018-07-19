@@ -30,6 +30,8 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         registry.addResourceHandler("/js/**").addResourceLocations("/scripts/");
         registry.addResourceHandler("/pics/**")
                 .addResourceLocations("/pics/");
+        registry.addResourceHandler("/picsForDB/**")
+                .addResourceLocations("/picsForDB/");
     }
 
     @Bean

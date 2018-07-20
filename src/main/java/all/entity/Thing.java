@@ -12,16 +12,20 @@ public class Thing {
     private int id;
     private String title;
     private String img;
+    private String imgShort;
     private int price;
+    private String category;
 
 
     public Thing() {
     }
 
-    public Thing(String title, String img, String describe, int price) {
+    public Thing(String title, String img, String imgShort, int price, String category) {
         this.title = title;
         this.img = img;
+        this.imgShort = imgShort;
         this.price = price;
+        this.category = category;
     }
 
     public int getId() {
@@ -48,6 +52,14 @@ public class Thing {
         this.img = img;
     }
 
+    public String getImgShort() {
+        return imgShort;
+    }
+
+    public void setImgShort(String imgShort) {
+        this.imgShort = imgShort;
+    }
+
     public int getPrice() {
         return price;
     }
@@ -56,13 +68,23 @@ public class Thing {
         this.price = price;
     }
 
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
     @Override
     public String toString() {
         return "Thing{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", img='" + img + '\'' +
+                ", imgShort='" + imgShort + '\'' +
                 ", price=" + price +
+                ", category='" + category + '\'' +
                 '}';
     }
 }

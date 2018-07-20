@@ -11,6 +11,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import javax.servlet.http.HttpServletRequest;
+
 @Controller
 public class MainController {
     User user = new User();
@@ -64,9 +66,11 @@ public class MainController {
         return "registration";
     }
 
-    @GetMapping("/thing/frame")
-    public String thingFframe(Model model) {
-        model.addAttribute("thing", thingService.findOne(1));
+    @GetMapping("/thing/*")
+    public String thingFframe(Model model, HttpServletRequest request) {
+        String[] url = request.getRequestURL().toString().split("/");
+        int id = Integer.valueOf(url[url.length - 1]);
+        model.addAttribute("thing", thingService.findOne(id));
         return "goods";
     }
 }

@@ -300,7 +300,6 @@ li.filter{
 .pdg5{
     padding: 5px;
 }
-
 .pdg-t-70{
     padding-top: 70px
 }
@@ -412,4 +411,7 @@ a:hover{
 
 .bg-orange{
     background: orange
+}
+.box-s{
+    box-sizing: border-box;
 }

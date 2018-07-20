@@ -8,4 +8,5 @@ public interface ThingService {
     public Thing save(Thing thing);
     public List<Thing> findAll();
     public Thing findOne(int id);
+    List<Thing> findAllByCategory(String category);
 }

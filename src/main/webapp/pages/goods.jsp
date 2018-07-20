@@ -58,7 +58,7 @@
             <div class="h600">
                 <div class="wp40 hp100 float-l text-c">
                     <div class="m-t-20 pdg20 wp80 h260 border">
-                        <img src="${thing.img}">
+                        <img src="${thing.img}" class="logo">
                     </div>
                 </div>
                 <div class="wp60 float-l">

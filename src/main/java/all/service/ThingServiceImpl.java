@@ -26,6 +26,9 @@ public class ThingServiceImpl implements ThingService {
     public Thing findOne(int id) {
         return thingDao.findOne(id);
     }
+    public List<Thing> findAllByCategory(String category){
+        return thingDao.findAllByCategory(category);
+    }
 
 
 }

@@ -107,11 +107,21 @@
         </div>
         <div class="wp70 float-l pdg-t-50 bg-white">
 
-            <div class="wp90 h150 m-b-20 border"><a href="/thing/frame">GET</a></div>
-            <div class="wp90 h150 m-b-20 border"></div>
-            <div class="wp90 h150 m-b-20 border"></div>
-            <div class="wp90 h150 m-b-20 border"></div>
-            <div class="wp90 h150 m-b-20 border"></div>
+            <c:forEach items="${things}" var="thing">
+            <div class="wp90 h150 m-b-20 border">
+                <div class="wp30 hp100 float-l pdg5 box-s text-c">
+                    <img src="${thing.imgShort}" class="logo">
+                </div>
+                <div class="wp70 hp100 float-l">
+                    <h3 class="wp100 pdg5"><a href="/thing/${thing.id}">${thing.title}</a></h3>
+                        <h2 class="pdg5">Price: &#8372 ${thing.price}</h2>
+                        <h4 class="pdg5">Product ID: "${thing.id}"</h4>
+                        <form>
+                            <input type="submit" name="" placeholder="" value="Add to cart" class="submit2">
+                        </form>
+                </div>
+            </div>
+            </c:forEach>
 
         </div>
 

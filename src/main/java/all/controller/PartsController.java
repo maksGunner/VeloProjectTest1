@@ -4,6 +4,7 @@ import all.entity.Thing;
 import all.service.ThingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -17,19 +18,14 @@ public class PartsController {
     ThingService thingService;
 
     @GetMapping("/frame")
-    public String frame(){
-        File file = new File("frame1.png");
-        Thing frame = new Thing();
-        frame.setTitle("Frame");
-        frame.setImg("/picsForDB/" + file.getName());
-        System.out.println(frame.getImg());
-        frame.setPrice(4455);
-        thingService.save(frame);
+    public String frame(Model model){
+        model.addAttribute("things", thingService.findAllByCategory("frame"));
         return "filter";
     }
 
     @GetMapping("/fork")
-    public String fork(){
+    public String fork(Model model){
+        model.addAttribute("things", thingService.findAllByCategory("fork"));
         return "filter";
     }
 
@@ -39,7 +35,8 @@ public class PartsController {
     }
 
     @GetMapping("/cassette")
-    public String cassette(){
+    public String cassette(Model model) {
+        model.addAttribute("things", thingService.findAllByCategory("cassette"));
         return "filter";
     }
 

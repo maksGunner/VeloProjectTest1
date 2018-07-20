@@ -32,6 +32,8 @@ public class WebConfig extends WebMvcConfigurerAdapter {
                 .addResourceLocations("/pics/");
         registry.addResourceHandler("/picsForDB/**")
                 .addResourceLocations("/picsForDB/");
+        registry.addResourceHandler("/picsForDBShort/**")
+                .addResourceLocations("/picsForDBShort/");
     }
 
     @Bean
